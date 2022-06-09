@@ -6,6 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import java.io.Serializable;
+import java.sql.Date;
 
 @Data
 @NoArgsConstructor
@@ -22,4 +23,5 @@ public class UserEntity implements Serializable {
     private Long uid;
     private String email;
     private String name;
+    private Date dob;
 }
