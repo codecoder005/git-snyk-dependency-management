@@ -15,9 +15,9 @@ public class UserController {
     @GetMapping
     public List<UserEntity> getAllUsers(){
         return List.of(
-                new UserEntity(101L, "101@email", "John"),
-                new UserEntity(102L, "102@email", "Mark"),
-                new UserEntity(103L, "103@email", "Donald")
+                new UserEntity(101L, "101@email", "John", null, null),
+                new UserEntity(102L, "102@email", "Mark", null, null),
+                new UserEntity(103L, "103@email", "Donald", null, null)
         );
     }
 }
